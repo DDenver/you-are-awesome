@@ -1,6 +1,8 @@
 // DO WHATEVER YOU WANT HERE
 
-const createEnumerableProperty = () => {};
+const createEnumerableProperty = (propertyName) => {
+    return propertyName;
+};
 const createNotEnumerableProperty = () => {};
 const createProtoMagicObject = () => {};
 const incrementor = () => {};
@@ -23,4 +25,4 @@ exports.createIncrementer = createIncrementer;
 exports.returnBackInSecond = returnBackInSecond;
 exports.getDeepPropertiesCount = getDeepPropertiesCount;
 exports.createSerializedObject = createSerializedObject;
-exports.sortByProto = sortByProto;
+exports.sortByProto = sortByProto; 
